@@ -13,10 +13,12 @@
         src="assets/react-native-typescript-boilerplate.gif" height="650" width="325" />
 </p>
 
-# 🥳 Version 4.0.0 is here 😍
+# 🥳 Version 4.2.0 is here 😍
 
-We're proudly announce that `Version 4.0.0` is here!
+We're proudly announce that `Version 4.2.0` is here!
 
+- `Zustand` integration with cool slices 🐻
+- Latest `MMKV` Integration with `Zustand`
 - Better **built-in theming** support with React Navigation
 - Native Splash Screen
 - New React Native Architecture Ready **(RN 0.73+)** 🍻
