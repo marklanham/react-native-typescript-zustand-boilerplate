@@ -1,4 +1,6 @@
-import create, { StoreApi } from "zustand";
+/** @format */
+
+import { create, StoreApi } from "zustand";
 import LocalStorage from "@local-storage";
 import createAppSlice, { AppSlice } from "@services/zustand/app/AppSlice";
 import createUserSlice, { UserSlice } from "@services/zustand/user/UserSlice";

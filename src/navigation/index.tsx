@@ -1,4 +1,6 @@
-import React from "react";
+/** @format */
+
+import React, { useEffect } from "react";
 import { useColorScheme } from "react-native";
 import Icon, { IconType } from "react-native-dynamic-vector-icons";
 import { isReadyRef, navigationRef } from "react-navigation-helpers";
@@ -26,7 +28,7 @@ const Navigation = () => {
   const scheme = useColorScheme();
   const isDarkMode = scheme === "dark";
 
-  React.useEffect((): any => {
+  useEffect((): any => {
     return () => (isReadyRef.current = false);
   }, []);
 
@@ -64,7 +66,7 @@ const Navigation = () => {
     );
   };
 
-  const renderTabNavigation = () => {
+  const RenderTabNavigation = () => {
     return (
       <Tab.Navigator
         screenOptions={({ route }) => ({
@@ -98,7 +100,7 @@ const Navigation = () => {
       theme={isDarkMode ? DarkTheme : LightTheme}
     >
       <Stack.Navigator screenOptions={{ headerShown: false }}>
-        <Stack.Screen name={SCREENS.HOME} component={renderTabNavigation} />
+        <Stack.Screen name={SCREENS.HOME2} component={RenderTabNavigation} />
         <Stack.Screen name={SCREENS.DETAIL}>
           {(props) => <DetailScreen {...props} />}
         </Stack.Screen>
