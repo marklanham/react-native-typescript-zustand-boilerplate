@@ -947,10 +947,10 @@ PODS:
   - React-Mapbuffer (0.73.3):
     - glog
     - React-debug
-  - react-native-mmkv (2.11.0):
-    - MMKV (>= 1.2.13)
+  - react-native-mmkv (2.12.1):
+    - MMKV (>= 1.3.3)
     - React-Core
-  - react-native-safe-area-context (4.8.2):
+  - react-native-safe-area-context (4.9.0):
     - React-Core
   - react-native-splash-screen (3.3.0):
     - React-Core
@@ -1125,11 +1125,11 @@ PODS:
     - React-Core
   - RNCMaskedView (0.3.1):
     - React-Core
-  - RNGestureHandler (2.14.1):
+  - RNGestureHandler (2.15.0):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
-  - RNReanimated (3.6.2):
+  - RNReanimated (3.7.2):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -1406,8 +1406,8 @@ SPEC CHECKSUMS:
   React-jsinspector: 6fad0fe14882fb6b1c32e5cc8a4bd3d33a8b6790
   React-logger: cb0dd15ac67b00e7b771ef15203edcb29d4a3f8e
   React-Mapbuffer: d59258be3b0d2280c6ba8964ab6e36ec69211871
-  react-native-mmkv: e97c0c79403fb94577e5d902ab1ebd42b0715b43
-  react-native-safe-area-context: 0ee144a6170530ccc37a0fd9388e28d06f516a89
+  react-native-mmkv: 043e298a77d79c89b79aa8fdbd2f9b21acb19423
+  react-native-safe-area-context: 962141233f99bc8287b8dc50357f9e1fad77d872
   react-native-splash-screen: 4312f786b13a81b5169ef346d76d33bc0c6dc457
   React-nativeconfig: 4d3076dc3dc498ec49819e4e4225b55d3507f902
   React-NativeModulesApple: 46f14baf36010b22ffd84fd89d5586e4148edfb3
@@ -1429,15 +1429,15 @@ SPEC CHECKSUMS:
   React-runtimescheduler: aa382ce525689b88459e1181b3649220f175dc31
   React-utils: b22b4a51aa578b3aac1e7c19501c0b9ba358ed79
   ReactCommon: e708b8be8cb317b83e31c6ccfeda8bf6c0d1a2b3
-  ReactNativeLocalization: fb171138cdc80d5d0d4f20243d2fc82c2b3cc48f
-  RNCMaskedView: 090213d32d8b3bb83a4dcb7d12c18f0152591906
-  RNGestureHandler: 25b969a1ffc806b9f9ad2e170d4a3b049c6af85e
-  RNReanimated: 5589be82dc26b3f94738eb7c6b1f942787532b25
+  ReactNativeLocalization: 601c78361bcca77aab97908ee5c608e69633e54e
+  RNCMaskedView: ece6d915496b4f40483dcc4a37bbc5173b73a0f4
+  RNGestureHandler: deda62b8339496ba721a45e0f3e2d7a319932cee
+  RNReanimated: 3850671fd0c67051ea8e1e648e8c3e86bf3a28eb
   RNScreens: b582cb834dc4133307562e930e8fa914b8c04ef2
   RNVectorIcons: 210f910e834e3485af40693ad4615c1ec22fc02b
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
-  Yoga: ff0382b894475dba0b4d2a5fda860bfee5a9afad
+  Yoga: 08cd7601462818c4985bda7b205b9e6a92a7e66a
 
 PODFILE CHECKSUM: 67e7e160742c1b9846d348e5c3c3755f44f31df5
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.11.2
